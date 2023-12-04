@@ -1,0 +1,24 @@
+   
+   // 64102105124 นายชัยนคร สาริสี  สาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏสกลนคร 
+
+//ไฟล์ JS12-Asynchronous JS
+
+//Lab1
+    <script>
+
+const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+for (let i = 0; i < alphabet.length; i++) {
+  setTimeout(() => {
+    console.log(`
+      ${alphabet[i]}
+      เวลา: ${new Date().toLocaleTimeString()}
+    `);
+  }, i * 1000);
+}
+
+    </script>
+
+
+
+
